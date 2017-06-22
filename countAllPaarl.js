@@ -1,11 +1,11 @@
 module.exports=function countAllPaarl(regNumbr){
   var list = regNumbr.split(', ');
-  var number =[];
+  var numbers =[];
 
   for(var i=0;i<list.length;i++){
 
       if(list[i].startsWith('CJ')){
-        number.push(list[i]);
+        numbers.push(list[i]);
  }
 }
 return number;
