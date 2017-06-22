@@ -2,15 +2,15 @@
   "name": "bootcamp-terminal-tests",
   "version": "1.0.0",
   "description": "",
-  "directories":{
-    "test":"test"
+  "directories": {
+    "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node_modules/.bin/mocha"
   },
   "author": "Yamkela",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^3.4.1"
+    "mocha": "^3.4.2"
   }
 }
