@@ -1,7 +1,7 @@
 module.exports=function regCheck(registrationNumber,location) {
-  var andiyaz=registrationNumber.endsWith(location);
+  var reg=registrationNumber.endsWith(location);
 
-  return andiyaz;
+  return reg;
 
 }
   //console.log(regCheck('DV 23  GP', 'GP'));
